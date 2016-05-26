@@ -1,0 +1,56 @@
+// Query 1: GET /posts
+{
+  "posts": [
+    {
+      "id": 1,
+      "author_id": 2,
+      "content": "Hello World",
+      "total_likes": 3
+    },
+    {
+      "id": 2,
+      "author_id": 1,
+      "content": "Hello World",
+      "total_likes": 3
+    },
+    {
+      "id": 3,
+      "author_id": 2,
+      "content": "Hello World",
+      "total_likes": 3
+    },
+    //...
+  ]
+}
+
+// Query 2: GET /users/2
+{
+  "user": {
+    "id": 2,
+    "name": "Rob Dow",
+    "handle": "robdow",
+    "avatar_url": "/2.jpg",
+    "total_followers": 2, // overfetched
+    "total_friends": 2 // overfetched
+  }
+
+}
+
+// Query 3: GET /users/1
+{
+  "user": {
+    "id": 1,
+    "name": "John Doe",
+    "handle": "johndoe",
+    "avatar_url": "/1.jpg",
+    "total_followers": 2, // overfetched
+    "total_friends": 2  // overfetched
+  }
+}
+
+//... and so on
+// Or custom endpoint for /users
+//  GET /users/?ids=[1,2,3]
+
+// Or custom endpoint for newsfeed view
+// GET /newsfeed

@@ -1,0 +1,21 @@
+// Query 1: GET /posts/1
+{
+  "post": {
+    "id": 1,
+    "author_id": 2,
+    "content": "Hello World",
+    "total_likes": 3
+  }
+}
+
+// Query 2: GET /users/2
+{
+  "user": {
+    "id": 2,
+    "name": "Rob Dow",
+    "handle": "robdow",
+    "avatar_url": "/2.jpg",
+    "total_followers": 2, // overfetched
+    "total_friends": 2 // overfetched
+  }
+}

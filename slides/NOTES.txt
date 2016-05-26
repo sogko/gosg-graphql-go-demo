@@ -1,0 +1,21 @@
+## Things to possibly demo
+
+- [ ] Example microblogging app
+	- Stack:
+		-  Go + `net/http` + `x/net/context`
+		- `graphql-go`
+		- `react`+ `es6`
+		- `redux` + `apollo-client`
+		- `css-modules`
+
+-  [ ] GraphQL server in Go
+	- Models
+	- Schema design in GraphQL Schema Language
+	- Implementation using `graphql-go`
+
+-  [ ] Queries to render views
+	- REST vs GraphQL
+
+-  [ ] How quickly clients can adapt to rapid requirement changes
+	- Without touching your API
+	- Easily support outdated clients out in the wild

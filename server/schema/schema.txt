@@ -1,0 +1,33 @@
+
+type RootQuery {
+
+  # GET /posts
+  posts(limit: Int = 10): [Post]
+
+  # GET /posts/:id
+  post(id: Int): Post
+
+  # GET /users/:id
+  user(id: Int): User
+
+}
+
+type User {
+  id: Int
+  name: String
+  handle: String
+  avatar_url: String
+  total_followers: Int
+  total_friends: Int
+  followers: [User]
+  friends: [User]
+  posts(limit: Int = 10): [Posts]
+}
+
+type Post {
+  id: Int
+  content: String
+  author: User
+  total_likes: Int
+  liked_by: [Users]
+}

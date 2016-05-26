@@ -1,0 +1,10 @@
+.base {
+  margin: 0 auto;
+}
+
+.feed {
+  composes: base from '../components/feed.css';
+}
+
+.no-items {
+}

@@ -1,0 +1,43 @@
+/*
+{
+  user(id: 1) {
+    id
+    name
+    handle
+    avatar_url
+    posts {
+      id
+      content
+      total_likes
+      author {
+        id
+        name
+        handle
+        avatar_url
+      }
+    }
+  }
+}
+*/
+{
+  "user": {
+    "id": 2,
+    "name": "John Doe",
+    "handle": "johndoe",
+    "avatar_url": "/1.jpg",
+    "posts": [
+      {
+        "id": 1,
+        "content": "Hello World",
+        "total_likes": 3,
+        "author": {
+          "id": 2,
+          "name": "John Doe",
+          "handle": "johndoe",
+          "avatar_url": "/1.jpg",
+        }
+      },
+      //...
+    ]
+  }
+}

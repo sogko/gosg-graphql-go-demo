@@ -1,0 +1,19 @@
+.base {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  composes: base from './avatar.css';
+}
+
+.name {
+  margin: 0.67em 0;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.handle {
+
+}

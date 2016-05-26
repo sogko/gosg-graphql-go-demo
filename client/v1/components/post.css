@@ -1,0 +1,110 @@
+.base {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.post {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+}
+.liked-by-list {
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 20px;
+}
+.avatar {
+  margin-left: 20px;
+}
+.avatar-img {
+  composes: base from './avatar.css';
+  width: 75px;
+  height: 75px;
+}
+.content {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.content-header {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.content-text {
+  font-weight: 400;
+
+  margin: 5px 0 10px;
+
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: .01em;
+}
+
+.content-footer {
+  display: flex;
+  flex-direction: row;
+}
+.content-footer div {
+  padding-right: 15px;
+  color: #8899a6;
+}
+
+.author-name a {
+  color: #333;
+  font-weight: 700;
+  padding-right: 5px;
+}
+.author-handle a {
+  color: #8899a6;
+  padding-right: 5px;
+
+}
+.date:before {
+  content: "\00b7";
+}
+
+.date a {
+  color: #8899a6;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+.liked-by-list {
+  border-top: 1px solid #e1e8ed;
+  margin: 0;
+  padding: 0;
+}
+.liked-count {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.liked-count-heading {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #8899a6;
+  font-size: 10px;
+
+}
+.liked-avatars {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-left: 1px solid #e1e8ed;
+}
+.liked-avatar-img {
+  composes: base from './avatar.css';
+  width: 30px;
+  height: 30px;
+  padding-left: 5px;
+}
+.liked-handler {
+  padding-left: 5px;
+}

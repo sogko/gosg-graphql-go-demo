@@ -1,0 +1,43 @@
+/*
+{
+  posts(limit: 10) {
+    id
+    content
+    author {
+      id
+      name
+      handle
+      avatar_url
+    }
+    total_likes
+  }
+}
+
+*/
+{
+  "posts": [
+    {
+      "id": 1,
+      "content": "Hello World",
+      "author": {
+        "id": 2,
+        "name": "John Doe",
+        "handle": "johndoe",
+        "avatar_url": "/1.jpg",
+      },
+      "total_likes": 12
+    },
+    {
+      "id": 2,
+      "content": "Hello World",
+      "author": {
+        "id": 2,
+        "name": "Rob Dow",
+        "handle": "robdow",
+        "avatar_url": "/2.jpg",
+      },
+      "total_likes": 12
+    },
+    // ...
+  ]
+}

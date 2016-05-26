@@ -1,0 +1,70 @@
+.base {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0 15px;
+  border-bottom: 1px solid #e1e8ed;
+}
+.base:hover {
+  background-color: #f5f8fa;
+}
+.avatar {
+  margin-left: 20px;
+}
+.avatar-img {
+  composes: base from './avatar.css';
+  width: 48px;
+  height: 48px;
+}
+.content {
+  width: 100%;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.content-header {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.content-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  margin: 5px 0 10px;
+  width: 100%;
+}
+
+.content-footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+.content-footer div {
+  padding-right: 15px;
+  color: #8899a6;
+}
+
+.author-name a {
+  color: #333;
+  font-weight: 700;
+  padding-right: 5px;
+}
+.author-handle a {
+  color: #8899a6;
+  padding-right: 5px;
+
+}
+.date:before {
+  content: "\00b7";
+}
+
+.date a {
+  color: #8899a6;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}

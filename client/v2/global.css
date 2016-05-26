@@ -1,0 +1,144 @@
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  line-height: 18px;
+  font-size: 13px;
+  color: #31373d;
+  font-family: -apple-system, "BlinkMacSystemFont", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", sans-serif;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #479ccf;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #4293c2;
+  text-decoration: underline;
+}
+
+a.is-disabled {
+  color: #95a7b7;
+  pointer-events: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #212529;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 13px;
+}
+
+h4 {
+  font-size: 13px;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: disc inside none;
+}
+
+ol {
+  list-style: decimal inside none;
+}
+
+ol[type='1'] {
+  list-style-type: decimal inside none;
+}
+
+ol[type='a'] {
+  list-style-type: lower-alpha inside none;
+}
+
+ol[type='A'] {
+  list-style-type: upper-alpha inside none;
+}
+
+ol[type='i'] {
+  list-style-type: lower-roman inside none;
+}
+
+ol[type='I'] {
+  list-style-type: upper-roman inside none;
+}
+
+li {
+  margin: 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 10px;
+}
+
+pre, code {
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre {
+  font-size: 90%;
+}
+
+code {
+  font-size: 85%;
+  background: #ebeef0;
+  padding: 2px;
+}
+
+input {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+address {
+  font-style: normal;
+}
+
+small {
+  color: #798c9c;
+  font-size: 11px;
+}
