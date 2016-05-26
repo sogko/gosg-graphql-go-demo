@@ -1,6 +1,8 @@
 # gosg-graphql-go-demo
 Demo and slides for GoSG Meetup #15 - May 2016
 
+![screenshot](https://github.com/sogko/gosg-graphql-go-demo/blob/master/slides/images/twooter-screenshot.png)
+
 ### Slides
 Slides can be found in the [`slides`](./slides) folder.
 
