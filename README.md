@@ -14,7 +14,14 @@ To run the GraphQL server
 $ go run server/main.go
 ```
 
-To re-build the clients (not necesary unless you make changes to the client JS code)
+- Client V1 - [http://localhost:3000/](http://localhost:3000/)
+- Client V2 - [http://localhost:3000/v2/](http://localhost:3000/v2/)
+- GraphiQL - [http://localhost:3000/graphiql](http://localhost:3000/graphiql)
+- GraphQL endpoint - [http://localhost:3000/graphql](http://localhost:3000/graphql)
+
+
+To re-build the clients (not necessary unless you make changes to the client JS code)
+
 ```bash
 $ cd client
 $ npm run build-v1  # build client version 1
